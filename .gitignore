@@ -1,0 +1,57 @@
+# Binaries and build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# Go modules
+vendor/
+*.mod
+*.mod.*
+*.sum
+
+*.mod
+
+*.sum
+
+# Generated Go files
+*.prof
+*.coverprofile
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# IDE/editor files
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Editor temporary files
+*~
+*.swp
+*.swo
